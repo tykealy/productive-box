@@ -14,5 +14,5 @@ jobs:
         uses: tykealy/productive-box@master
         env:
           GH_TOKEN: ${{ secrets.GH_TOKEN }}
-          GIST_ID: ${{ secrets.GIST_ID }}
+          GIST_ID: 17ac8ce0a6fa61e84d695e6e2a32837e
           TIMEZONE: Asia/PhnomPenh
