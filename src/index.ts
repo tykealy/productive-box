@@ -101,9 +101,10 @@ interface IRepo {
       generateBarChart(percent, 21),
       String(percent.toFixed(1)).padStart(5) + '%',
     ];
-
     return [...prev, line.join(' ')];
   }, [] as string[]);
+
+  lines.push('👍 Comment çava?');
 
   /**
    * Finally, write into gist
